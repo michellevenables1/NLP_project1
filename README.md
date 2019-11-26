@@ -7,4 +7,6 @@ To start the research process on identifying areas of improvement they would lik
 The overall goal is to build an Natural Language Processing/Machine Learning in order to:
 1. Determine positive, negative, and neutral languages
 2. Identify key topics that is worth talking about on social media 
+3. We will be clustering 3 different topic types since in order to recognize similarities 
 
+![] images/
