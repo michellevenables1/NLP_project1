@@ -17,4 +17,4 @@ The below graph shows the distribution of tweet lengths. Normally the max tweet 
 
 View the graph below to view the lengths of tweets between each major airline. 
 
-![](images/DistLenofTweetsAirlines.png)
+![](images/DistLenTweetsAirlines.png)
