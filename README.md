@@ -1,12 +1,11 @@
 # NLP_finalproject
 
-A top tier airline has been has had a problem with their customer satisfaction and reputation. They would like to figure out ways to identify areas of improvement. 
+OVERVIEW:
+An airline has been wanting to improve their reputation with customer and employee experiences.
 
-To start the research process on identifying areas of improvement they would like to use social media (Twitter specifically) to recognize employee and customer satisfaction. 
+Since their survey reviews already account for their individual airline they’d like to provide due diligence on the entire industry.
 
-The overall goal is to build an Natural Language Processing/Machine Learning in order to:
-1. Determine positive, negative, and neutral languages
-2. Identify key topics that is worth talking about on social media 
-3. We will be clustering 3 different topic types since in order to recognize similarities 
+They want help web scraping twitter to perform natural language processing on social media tweets within the last 2-5 years (if each airline has that many tweets)
 
-![] images/
+Project Presentation:
+https://docs.google.com/presentation/d/1djEjBMIgj4O1GO1v97o0FVsGhJcDT7Eo/edit#slide=id.p1
