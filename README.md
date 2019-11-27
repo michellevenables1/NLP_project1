@@ -13,8 +13,8 @@ https://docs.google.com/presentation/d/1djEjBMIgj4O1GO1v97o0FVsGhJcDT7Eo/edit#sl
 **Data Evaluation**
 The below graph shows the distribution of tweet lengths. Normally the max tweet length is 120 characters. The distribution graph shows differently because it is expanding with pictures and website links. Before we start the vectorization process we want to remove all website and picture links.
 
-![](/Users/michellevenables/Documents/CourseMaterials/Projects/Project_6/NLP_finalproject/images/DistLenofTweets.png)
+![](images/DistLenofTweets.png)
 
 View the graph below to view the lengths of tweets between each major airline. 
 
-![](fig.savefig('/Users/michellevenables/Documents/CourseMaterials/Projects/Project_6/NLP_finalproject/images/DistLenofTweetsAirlines.png'))
+![](images/DistLenofTweetsAirlines.png)
