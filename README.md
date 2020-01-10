@@ -30,26 +30,33 @@ Collect 110,000 tweets using Twint (2018-2019)
 
 https://docs.google.com/presentation/d/1djEjBMIgj4O1GO1v97o0FVsGhJcDT7Eo/edit#slide=id.p1
 
-**Data Evaluation**
-The below graph shows the distribution of tweet lengths. Normally the max tweet length is 120 characters. The distribution graph shows differently because it is expanding with pictures and website links. Before we start the vectorization process we want to remove all website and picture links.
-
-![](images/DistLenofTweets.png)
-
-View the graph below to view the lengths of tweets between each major airline.
-
-![](images/DistLenTweetsAirlines.png)
-
 **t-SNE Cluster Analysis**
 
 Below you can see a Coherence score evaluation. Our highest coherence score is .44 with 3 topics. When running a t-SNE Cluster analysis you can see there is not much overlap between each cluster.
 We will also run a LDA Visualization.
 
+![](images/fig1.png)
+![](images/bokeh_plot.png)
+![](!images/3d_t-SNE.png)
+
 **Word Clouds**
 
-You can see the three distinct topics shown in the word clouds. The larger the word the heavier the weight between each topic.
+You can see the three distinct topics shown in the word clouds. The larger the word the heavier the weight between each word. Meaning that the larger words are used more frequently in the given topic. I've renamed Topic 0, Topic 1, and Topic 2 with the most frequently used words.
+
+![](images/wordcloud.png)
 
 **Analysis**
 
-*Major Airlines*
+After running our LDA Model, Sentiment Analysis, and Topic Modeling, we need to analyze the tweets of the dominant topics per Airline. Since we scraped a different amount of tweets per airline I took a ratio of dominant topics to compare between all airlines.
 
-*Low-Cost Carriers*
+You need to take bias into account when analyzing social media tweets. Majority of customer will only tweet if they have negative experiences on an airline. So comparing individual topics per airlines would be your best bet.
+
+Key Results:
+1. Of the top 3 Major Airlines (United, American, and Delta), Delta airlines had the worst reputation with "bad customer service".
+2. United Airlines ranked highest number of tweets that were about timing and delays
+3. The ultra low cost carriers (Spirit and Frontier) lack with customer service.
+4. Southwest ranked the most positive with tweets.
+
+See results below!
+
+![](images/all_airlines.png)  
