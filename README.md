@@ -28,7 +28,7 @@ Collect 110,000 tweets using Twint (2018-2019)
 
 **Project Presentation:**
 
-https://docs.google.com/presentation/d/1djEjBMIgj4O1GO1v97o0FVsGhJcDT7Eo/edit#slide=id.p1
+https://docs.google.com/presentation/d/13gIP81APp5hRM4ufGbypwsZV07Cl7n-0/edit#slide=id.p1
 
 **t-SNE Cluster Analysis**
 
