@@ -60,3 +60,9 @@ Key Results:
 See results below!
 
 ![](images/all_airlines.png)  
+
+- Majority of people tweet negatively about airlines
+- Delta - (Bias)
+- United Airlines - Timing and Delays 
+- Southwest - Overall best ranked airline with tweets
+- Ultra low cost carriers - under performers according to tweets.
